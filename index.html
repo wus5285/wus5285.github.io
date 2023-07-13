@@ -2,8 +2,11 @@
 <!--https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site-->
 <!--https://learn.coderslang.com/0110-how-to-create-multiple-pages-in-html/-->
 <!--Gallery of versions, color coded, difficulty level, hover over appears summary-->
+
 <!--List of GIFs I want to use:
-https://cdn.pixabay.com/animation/2023/04/20/06/45/06-45-08-258_512.gif-->
+https://cdn.pixabay.com/animation/2023/04/20/06/45/06-45-08-258_512.gif
+https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExODM1NmlqdXg1ZjZoNXR5dW8yMWJoZXphbzIxcm5hMHhydjBoeGF5cCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/5OqXb948EBkyUcnwHt/giphy.gif
+-->
 <hmtl>
   <head>
     <meta charset="uft-8">
@@ -29,7 +32,9 @@ https://cdn.pixabay.com/animation/2023/04/20/06/45/06-45-08-258_512.gif-->
         Beta Chi Pi is a science honors society at Parkway West High, similar to Mu Alpha Theta <i>(if you've ever head of that club)</i>. <br><br>Led by Mrs. Gallaher, the AP Chemistry teacher, and a committee of student officers, Beta Chi Pi strives to let its members to share and learn about chemistry, biology, and physics.<br><br>By attending meetings, tutoring, helping out teachers, teaching, and more, members earn a certain amount of points with each task. In order to graduate this society, memebers need to have acheived a certain amount of points. The amount of points per task and needed to graduate will be decided later. <br><br> This club will be both academically and creatively fun, and most importantly, will be filled with really cool students which you can learn and befriend. Let's have a great year!
     </p>
     <br>
+    
     <h2>Meetings</h2>
+    <img id="PBJ-gif" src="https://media3.giphy.com/media/ZO7JG72fMpXgrN2uCI/giphy.gif?cid=6c09b952m6kz67k8bmas5hom6lbu4nui1wu8107clyop3wmw&ep=v1_stickers_related&rid=giphy.gif&ct=s" alt="2 PB&J sandwichs giving each other a brofist.">
     <h3>Previous Meetings:</h3>
     <p><a href="https://docs.google.com/presentation/d/1HCWaUqeBEJwCD3futzBp0WBcoPLsML8m8wUanXjlgow/edit?pli=1#slide=id.g22dcedbd401_0_1128" class="previous-meeting">April 14, 2023</a><p>
     <h3>Current Meetings</h3>
@@ -40,6 +45,7 @@ https://cdn.pixabay.com/animation/2023/04/20/06/45/06-45-08-258_512.gif-->
     <p>Some dedicated students decided to create their own presentations to teach the club. Here are their works:</p>
     <ul class="list">
         <p class="date1">April 2023</p>
+        <img id="potion-gif" src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExZTZzaTZhNWpjZm0ybmRqcXl3MmhrZDV5YmtsMndrdjY5NmxiYWNucSZlcD12MV9naWZzX3NlYXJjaCZjdD1z/mACiRE5HiqioJDdeSR/giphy.gif" alt="3 potions as yellow, green, and pink with special effects.">
         <li><a href="https://docs.google.com/presentation/d/1G12U_OsscP9HPdW-tD2G7TdcXektR7aRTxa0wfjwaWM/edit?usp=sharing">Mitchell H- Chronostasis</a> </li>
         <li><a href="https://docs.google.com/presentation/d/1pkn9ubtJhANWEI5kc6WRluSfcAM3biyU6TXEv3zndUY/edit?usp=sharing">Siri A- Phage Camp</a></li>
         <li><a href="https://docs.google.com/presentation/d/1DO-d3nZi_AS7fx8z-FHxlqvGRuQ2YfsfvJdtasM0Klo/edit?usp=sharing">Hrishi M- Feynman Diagrams</a></li>
@@ -67,10 +73,11 @@ https://cdn.pixabay.com/animation/2023/04/20/06/45/06-45-08-258_512.gif-->
     
     <br>
     <h2>Contacts</h2>
+    <img id="gallaher-pic" src="https://apps.parkwayschools.net/staffLists/directory_images/50362.jpg?20230713" alt="The one and only Mrs. Gallaher!">
     <p>
-        Here are the folks running the club:
+        Got any questions? Here are the folks running the club:
         <ul id="officers">
-            <span class="front">Sponsor:</span> Chloe Gallaher <br>
+            <span id="queen"><span class="front">Sponsor:</span> Chloe Gallaher</span> <br>
             <span class="front">President:</span>  Achyuta Ambal<br>
             <span class="front">Senior Vice President:</span>  Dee Tummala<br>
             <span class="front">Junior Vice President:</span>  Sofia Wu <br>
@@ -190,7 +197,7 @@ https://cdn.pixabay.com/animation/2023/04/20/06/45/06-45-08-258_512.gif-->
         overflow-x: hidden;
         background-color:rgb(77, 99, 70);
         padding:10px;
-        border: 2px dashed rgb(218, 240, 211)
+        border:10px dashed rgb(218, 240, 211)
     }
     #star-gif
     {
@@ -205,9 +212,34 @@ https://cdn.pixabay.com/animation/2023/04/20/06/45/06-45-08-258_512.gif-->
         width:120px;
         position:absolute;
         margin-left:195px;
-        margin-top:-60px;
+        margin-top:-80px;
     }
-    
+    #potion-gif
+    {
+        width:200px;
+        float:right;
+        position:relative;
+        margin-top:-80px;
+    }
+    #PBJ-gif
+    {
+        width:250px;
+        float:right;
+        margin-top:-80px;
+    }
+    #gallaher-pic
+    {
+        float:right;
+        margin-top:45px;
+        margin-right:15px;
+        border: 10px ridge rgb(255, 183, 0);
+        
+    }
+    #queen:hover //find a time to fix this crap
+    {
+        background-color:rgb(255, 183, 0);
+        color:white;
+    }
     
   </stlye>
 </hmtl>
