@@ -8,25 +8,30 @@
   </head>
   <body>
     <h1>Beta Chi Pi</h1>
+    <br>
+    
     <h2>Home</h2>
     <p>
         Welcome to Parkway West High Beta Chi Pi Club! Don't worry, when I joined as was as confused as you, but let's go out and find out the fantastical world of science!<br><br>I do in fact plan to expand on this website <i>(outside of summer school)</i>, so look forward to the improvement of this website. As a little HTML/Javascript/CSS newbie, I can't wait to see what this website and club can become!
     </p>
+    <br>
     <h2>About</h2>
     <p>
         Beta Chi Pi is a science honors society at Parkway West High, similar to Mu Alpha Theta <i>(if you've ever head of that club)</i>. <br><br>Led by Mrs. Gallaher, the AP Chemistry teacher, and a committee of student officers, Beta Chi Pi strives to let its members to share and learn about chemistry, biology, and physics.<br><br> This club will be both academically and creatively fun, and most importantly, will be filled with really cool students which you can learn and befriend. Let's have a great year!
     </p>
+    <br>
     <h2>Meetings</h2>
     <h3>Previous Meetings:</h3>
     <p><a href="https://docs.google.com/presentation/d/1HCWaUqeBEJwCD3futzBp0WBcoPLsML8m8wUanXjlgow/edit?pli=1#slide=id.g22dcedbd401_0_1128" class="previous-meeting">April 14, 2023</a><p>
     <h3>Current Meetings</h3>
     <p id="temp-meeting">NONE! Have a great summer!</p>
-    <h2>Contacts</h2>
     
+    <br>
+    <h2>Contacts</h2>
     <p>
         Here are the folks running the club:
         <ul id="officers">
-            <span class="front">Sponsor:</span> Chole Gallaher <br>
+            <span class="front">Sponsor:</span> Chloe Gallaher <br>
             <span class="front">President:</span>  Achyuta Ambal<br>
             <span class="front">Senior Vice President:</span>  Dee Tummala<br>
             <span class="front">Junior Vice President:</span>  Sofia Wu <br>
@@ -47,10 +52,16 @@
             </div>
         </ul>
     </p>
-    <h2>History of the Site</h2>
-    <p><span class="date">July 11, 2023</span> I confusdely <i>(look, I can't even spell corretly)</i> try to figure out how the heck Github worked. </p>
     <br>
-    <span class="date">July 12, 2023</span> I coded the bulk of what I needed in order to turn this assignment in. Yes, this is a summer school assignment, but I always had this idea in mind.
+    
+    <h2>History of the Site</h2>
+    <p><div class="diary"><span class="date">July 11, 2023</span> <br>I confusdely <i>(look, I can't even spell corretly)</i> try to figure out how the heck Github worked. 
+    <br><br>
+    <span class="date">July 12, 2023</span> <br>I coded the bulk of what I needed in order to turn this assignment in. Yes, this is a summer school assignment, but I always had this idea in mind.
+    <br><br>
+    ...
+    </div>
+    </p>
   </body>
   <style>
   /*HOLY COLOR SHEET: https://www.w3schools.com/colors/colors_names.asp*/
@@ -64,6 +75,7 @@
     {
         color:rgb(209, 36, 67);
         font-size:250%;
+        
     }
     h2
     {
@@ -80,9 +92,13 @@
         position:relative;
         left:10%;
     }
+    a:link
+    {
+        color:rgb(77, 99, 70);
+    }
     a:hover
     {
-        color:red;
+        color:rgb(209, 36, 67);
     }
     #officers
     {
@@ -90,7 +106,7 @@
     #council-space
     {
         position:relative;
-        padding:15px;
+        padding:5px;
         left:15px;
         
     }
@@ -98,6 +114,7 @@
     {
         color:rgb(87, 144, 189);
         //font-weight:bold;
+        //text-decoration: underline;
         
     }
     #temp-meeting
@@ -105,10 +122,22 @@
         position:relative;
         left:10%;
     }
-    #date
+    .date
     {
-       //position: relative;
-       text-align:left;
+       font-weight:bold;
+       //color:rgb(87, 144, 189);
+       position:relative;
+       left:75%;
+       //padding:10%;
+       font-family:serif;
+    }
+    .diary
+    {
+        font-family:cursive;
+    }
+    id:hover
+    {
+        color:red;
     }
     
   </stlye>
